@@ -22,8 +22,7 @@ contour(X, Y, psi, 100, '-b', linewidth=1);
 contour(X, Y, phi, 100, '--r', linewidth=2);
 contour(X, Y, psi, [0 0]);
 pbaspect([1 1 1]);
-% set(h,'Visible','off')
-% axis off
-% axis image
+axis off
+axis image
 % saveas(figure1,'finename.png')
 

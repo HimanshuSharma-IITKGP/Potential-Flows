@@ -16,7 +16,7 @@ Y = RHO.*sin(THETA);
 h = polar(X, Y);
 hold all;
 contour(X, Y, psi, 20, '-b', linewidth=2);
-contour(X, Y, phi, 20, '--r', linewidth=2);
+% contour(X, Y, phi, 20, '--r', linewidth=2);
 set(h,'Visible','off')
 axis off
 axis image
