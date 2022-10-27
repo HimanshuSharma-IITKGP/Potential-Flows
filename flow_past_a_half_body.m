@@ -8,7 +8,7 @@ U = 1;
 m = 5;
 
 R = sqrt(X.^2 + Y.^2) ;
-Theta = atan(Y./X) ;
+Theta = atan2(Y, X) ;
 psi = U*R.*sin(Theta) + (m/(2*pi))*Theta ;
 phi = U*R.*cos(Theta) + (m/(2*pi))*log(R) ;
 
