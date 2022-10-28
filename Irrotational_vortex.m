@@ -1,3 +1,5 @@
+clear;
+clc;
 y = linspace(-1, 1, 100);
 x = linspace(-1, 1, 100);
 
@@ -13,8 +15,7 @@ hold all;
 contour(X, Y, psi, 20, '-b', linewidth=2);
 contour(X, Y, phi, 20, '--r', linewidth=2);
 pbaspect([1 1 1]);
-% set(h,'Visible','off')
 % axis off
 % axis image
-% saveas(figure1,'finename.png')
+% saveas(figure1,'irrotational_vortex.png')
 

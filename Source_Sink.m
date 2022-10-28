@@ -19,5 +19,5 @@ contour(X, Y, phi, 20, '--r', linewidth=2);
 set(h,'Visible','off')
 axis off
 axis image
-% saveas(figure1,'finename.png')
+% saveas(figure1,'Source_Sink.png')
 

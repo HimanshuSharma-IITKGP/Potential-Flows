@@ -14,15 +14,15 @@ phi = U*R.*cos(Theta) + (m/(2*pi))*log(R) ;
 
 
 
-% figure1 = figure; 
+figure1 = figure; 
 
 hold all;
-contour(X, Y, psi, 100, '-b', linewidth=1);
+contour(X, Y, psi, 99, '-b', linewidth=1);
 plot(-2.5/pi, 0, '-ro')
-% contour(X, Y, phi, 20, '--r', linewidth=2);
+% contour(X, Y, phi, 99, '--r', linewidth=2);
 pbaspect([1 1 1]);
-% set(h,'Visible','off')
-% axis off
-% axis image
-% saveas(figure1,'finename.png')
+
+axis off
+axis image
+saveas(figure1,'flow_past_a_half_body.png')
 

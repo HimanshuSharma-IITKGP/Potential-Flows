@@ -14,7 +14,7 @@ phi = U*(R + (a^2)./R).*cos(Theta);
 
 
 
-% figure1 = figure; 
+figure1 = figure; 
 
 hold all;
 contour(X, Y, psi, 100, '-b', linewidth=1);
@@ -24,5 +24,5 @@ contour(X, Y, psi, [0 0]);
 pbaspect([1 1 1]);
 axis off
 axis image
-% saveas(figure1,'finename.png')
+saveas(figure1,'flow_past_a_cylinder.png')
 
